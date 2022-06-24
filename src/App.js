@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-// import About from './components/About';
+import About from './components/About';
 import Alert from './components/Alert';
 // import {
 //   BrowserRouter as Router,
@@ -46,7 +46,8 @@ function App() {
       <Navbar title='TextUtils' mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert}/>
       <div className="container my-3">
-      <TextForm showAlert={showAlert} heading='Enter the text below to analyze' mode={mode}/>
+      <TextForm showAlert={showAlert} heading='Try TextUtils - Word Counter, Character Counter, Remove extra Spaces' mode={mode}/>
+      {/* <About mode={mode} toggleMode={toggleMode} /> */}
          {/* A <Routes> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         {/* <Routes> */}
