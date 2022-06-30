@@ -18,7 +18,7 @@ export default function About(props) {
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div className="accordion-body" style={{backgroundColor:props.mode==='dark'?'rgb(101, 100, 100)':'#eaeaea', color:props.mode==='dark'?'white':'black',border:'1px solid', borderColor:props.mode==='dark'?'white':'black'}}>
-                    TextUtils gives you a way to analyze your text quickly and efficiently. Be it word count,character count or
+                    TextUtils gives you a way to analyze your text quickly and efficiently. Be it word count,character count.
                 </div>
                 </div>
             </div>
